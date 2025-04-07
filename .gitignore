@@ -380,33 +380,3 @@ FodyWeavers.xsd
 
 ## Winmerge
 *.[bB][aA][kK]
-
-
-# Exclude External - Treated as resource
-External/
-
-# Exclude Resources
-Res/
-
-# Exclude Copied default Shader Header
-Project/UserShader/DefaultShader/
-
-# 3D Modeling
-*.fbx
-*.blend
-FBX/
-
-# text file
-*.txt
-
-# ignore CodeGenerator-generated code
-strKey_UserComponent.h
-strKey_Script.h
-strKey_Scene.h
-strKey_Shader.h
-UserContentsInitializer_Component.cpp
-UserContentsInitializer_Script.cpp
-UserContentsInitializer_Scene.cpp
-/Project/Contents/ContentsInitializer_Component.cpp
-/Project/Contents/ContentsInitializer_Scene.cpp
-/Project/Contents/ContentsInitializer_Script.cpp
