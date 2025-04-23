@@ -27,7 +27,6 @@ BOOL APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
     Desc.entryFunction = AB::EntryPoint;
 
-
-    ENGINE_MAIN entry(Desc);
-    return entry.Run();
+    ENGINE_MAIN engine(Desc);
+    return engine.Run();
 }
