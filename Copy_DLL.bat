@@ -11,8 +11,8 @@ if "%Configuration%"=="" set Configuration=Debug
 echo Running %0... 
 echo Mode: %Platform%, %Configuration%
 
-set SRC=.\External\dll\%Platform%\%Configuration%\*.dll
-set DEST=.\Bin\%Platform%\%Configuration%
+set SRC=.\external\dll\%Platform%\%Configuration%\*.dll
+set DEST=.\bin\%Platform%\%Configuration%
 
 :: 폴더가 없을 경우 폴더 생성
 if not exist %DEST% ( mkdir %DEST% )
