@@ -1,0 +1,10 @@
+{
+  "root": true,
+
+  "hlsl.preprocessorDefinitions": {
+    "__HLSL": 1
+  },
+  "hlsl.additionalIncludeDirectories": [
+    "./proj/core"
+  ]
+}
