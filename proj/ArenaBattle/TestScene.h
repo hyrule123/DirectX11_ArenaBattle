@@ -7,14 +7,12 @@ namespace AB
 	class TestScene
 		: public core::Scene
 	{
-		CLASS_INFO(TestScene);
-
+		CLASS_INFO(TestScene, core::Scene);
 	public:
 		TestScene();
 		virtual ~TestScene();
 
-		virtual void init() override;
-		virtual void on_enter() override;
+		virtual void awake() override;
 	};
 }
 
