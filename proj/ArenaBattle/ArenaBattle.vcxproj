@@ -103,7 +103,8 @@
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>PCH_ArenaBattle.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>ArenaBattle/PCH_ArenaBattle.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>ArenaBattle/PCH_ArenaBattle.h</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -125,7 +126,8 @@ call Copy_DLL.bat $(Platform) $(Configuration)</Command>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>PCH_ArenaBattle.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>ArenaBattle/PCH_ArenaBattle.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>ArenaBattle/PCH_ArenaBattle.h</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -147,7 +149,8 @@ call Copy_DLL.bat $(Platform) $(Configuration)</Command>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>PCH_ArenaBattle.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>ArenaBattle/PCH_ArenaBattle.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>ArenaBattle/PCH_ArenaBattle.h</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -169,7 +172,8 @@ call Copy_DLL.bat $(Platform) $(Configuration)</Command>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>PCH_ArenaBattle.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile>ArenaBattle/PCH_ArenaBattle.h</PrecompiledHeaderFile>
+      <ForcedIncludeFiles>ArenaBattle/PCH_ArenaBattle.h</ForcedIncludeFiles>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

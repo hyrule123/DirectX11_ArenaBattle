@@ -10,7 +10,7 @@
 namespace AB
 {
 	TestScene::TestScene()
-		: core::Scene(TestScene::s_concrete_class_name)
+		: core::Scene(TestScene::s_static_type_name)
 	{
 	}
 	TestScene::~TestScene()
@@ -24,13 +24,13 @@ namespace AB
 		using namespace core;
 		s_ptr<GameObject> test_obj = std::make_shared<GameObject>();
 
-		//s_ptr<Com_Renderer_3DAnimMesh> mesh = test_obj->AddComponent<Com_Renderer_3DAnimMesh>();
+		//s_ptr<Com_Renderer_3DAnimMesh> mesh = test_obj->add_component<Com_Renderer_3DAnimMesh>();
 		//
 		//auto res = ResourceManager<Model3D>::get_inst().load("WarriorRunFwd");
 
 		//auto objs = res->instantiate();
 
-		//auto animator = objs.front()->GetComponent<Com_Animator3D>();
+		//auto animator = objs.front()->get_component<Com_Animator3D>();
 		//for (const auto& obj : objs)
 		//{
 		//	obj->SetLayer(1);
