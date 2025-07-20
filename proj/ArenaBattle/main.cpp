@@ -21,11 +21,11 @@ BOOL APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
     Desc.windowIcon = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON1));
 
-    Desc.GPUDesc.ResolutionX = (UINT)Desc.width;
-    Desc.GPUDesc.ResolutionY = (UINT)Desc.height;
-    Desc.GPUDesc.RefreshRate = (UINT)60u;
+    Desc.GPUDesc.resolution_X = (UINT)Desc.width;
+    Desc.GPUDesc.resolution_Y = (UINT)Desc.height;
+    Desc.GPUDesc.refresh_rate = (UINT)60u;
 
-    Desc.entryFunction = AB::EntryPoint;
+    Desc.entryFunction = AB::entry_point;
 
     ENGINE_MAIN engine(Desc);
     return engine.run();

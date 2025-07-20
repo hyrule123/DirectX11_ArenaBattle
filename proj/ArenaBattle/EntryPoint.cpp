@@ -7,9 +7,9 @@
 
 namespace AB
 {
-	void EntryPoint()
+	void entry_point()
 	{
-		core::SceneManager::get_inst().LoadScene(std::make_unique<TestScene>());
+		core::SceneManager::get_inst().load_scene(std::make_unique<TestScene>());
 	}
 }
 

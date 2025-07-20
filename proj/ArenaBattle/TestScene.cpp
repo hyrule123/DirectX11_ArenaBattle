@@ -2,10 +2,10 @@
 #include "TestScene.h"
 
 #include <core/Engine/Game/GameObject.h>
-#include <core/Engine/Game/Component/Renderer/Com_Renderer_3DAnimMesh.h>
+#include <core/Engine/Game/Component/Renderer/SkeletalMeshRenderer.h>
 #include <core/Engine/Manager/ResourceManager.h>
 #include <core/Engine/Resource/Model3D/Model3D.h>
-#include <core/Engine/Game/Component/Animator/Com_Animator3D.h>
+#include <core/Engine/Game/Component/Animator/Animator3D.h>
 
 namespace AB
 {
@@ -24,7 +24,7 @@ namespace AB
 		using namespace core;
 		s_ptr<GameObject> test_obj = std::make_shared<GameObject>();
 
-		//s_ptr<Com_Renderer_3DAnimMesh> mesh = test_obj->add_component<Com_Renderer_3DAnimMesh>();
+		//s_ptr<SkeletalMeshRenderer> mesh = test_obj->add_component<SkeletalMeshRenderer>();
 		//
 		//auto res = ResourceManager<Model3D>::get_inst().load("WarriorRunFwd");
 
@@ -36,9 +36,9 @@ namespace AB
 		//	obj->SetLayer(1);
 		//}
 
-		//animator->PlayNext();
+		//animator->play_next_animation();
 
-		//AddGameObjects(objs);
+		//add_game_objects(objs);
 
 		int a = 3;
 	}

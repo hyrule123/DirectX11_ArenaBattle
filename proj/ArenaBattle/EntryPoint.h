@@ -2,7 +2,7 @@
 
 namespace AB
 {
-	extern void EntryPoint();
+	extern void entry_point();
 }
 
 
